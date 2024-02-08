@@ -1,0 +1,164 @@
+header {
+  margin-top: 45px;
+
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+
+  padding-bottom: 32px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #af1212;
+  border-radius: 20px;
+  background-image: url(./images/brooke-lark-pXEsx3kRuNc-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card {
+  background-color: #f88181ea;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/* h1 {
+  font-size: 36px;
+  font-family: "Georgia", serif;
+  text-transform: uppercase;
+} */
+
+.button {
+  font-size: 40px;
+  border-style: none;
+  color: #e45a5a;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 32px;
+  font-weight: 500;
+  line-height: 20px;
+  height: 60px;
+  border: none;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  font-family: "Inter", Arial, sans-serif;
+  border-radius: 4px;
+}
+.button:hover {
+  opacity: 0.7;
+}
+
+/* .modal__container {
+  background-color: #fff;
+  margin: auto;
+  padding: 36px;
+  width: 430px;
+  height: 330px;
+  border-radius: 10px;
+  position: relative;
+}
+.modal__heading {
+  color: #000;
+  max-width: 330px;
+  max-height: 23px;
+  font-size: 24px;
+  font-weight: 900;
+}  */
+
+.container {
+  position: relative;
+}
+.valentines {
+  position: relative;
+  top: 50px;
+  cursor: pointer;
+}
+.envelope {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background: #e45a5a;
+  display: grid;
+  place-items: center;
+}
+
+.envelope__container {
+  position: fixed;
+}
+.envelope::before {
+  content: "";
+  position: absolute;
+  width: 212px;
+  height: 212px;
+  background: #e45a5a;
+  transform: rotate(45deg);
+  top: -105px;
+  left: 44px;
+  border-radius: 30px 0 0;
+}
+.front {
+  position: absolute;
+  border-right: 180px solid #fa9191;
+  border-top: 95px solid transparent;
+  border-bottom: 100px solid transparent;
+  left: 120px;
+  top: 5px;
+  width: 0;
+  height: 0;
+  z-index: 10;
+}
+
+.front::before {
+  position: absolute;
+  content: "";
+  border-left: 300px solid #f7a9a9;
+  border-top: 195px solid transparent;
+  left: -120px;
+  top: -95px;
+}
+.letter {
+  position: relative;
+  width: 250px;
+  height: 180px;
+  background: #fff;
+  border-radius: 2px;
+  display: grid;
+  justify-content: center;
+  transition: 1s;
+}
+.letter::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+.letter:hover {
+  transform: translateY(-100px);
+  background-color: yellow;
+  color: black;
+  border: 5px solid red;
+}
+@keyframes up {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+}
+.valentines::before {
+  content: "";
+  position: absolute;
+  width: 330px;
+  height: 25px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 265px;
+  left: -15px;
+}
