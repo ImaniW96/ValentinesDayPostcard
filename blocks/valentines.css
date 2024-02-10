@@ -1,0 +1,30 @@
+.valentines:hover .letter {
+    transform: translateY(-100px);
+    background-color: #fff;
+    color: black;
+    border: 5px solid rgb(226, 20, 47);
+  }
+  @keyframes up {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+  }
+  .valentines::before {
+    content: "";
+    position: absolute;
+    width: 330px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 265px;
+    left: -15px;
+  }
+  .text {
+    font-size: 18px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-bottom: 120px;
+  }

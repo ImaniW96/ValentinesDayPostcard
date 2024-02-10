@@ -1,0 +1,43 @@
+.envelope {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background: #e45a5a;
+  display: grid;
+  place-items: center;
+}
+
+.envelope__container {
+  position: fixed;
+}
+.envelope::before {
+  content: "";
+  position: absolute;
+  width: 212px;
+  height: 212px;
+  background: #e45a5a;
+  transform: rotate(45deg);
+  top: -105px;
+  left: 44px;
+  border-radius: 30px 0 0;
+}
+.envelope__front {
+  position: absolute;
+  border-right: 180px solid #fa9191;
+  border-top: 95px solid transparent;
+  border-bottom: 100px solid transparent;
+  left: 120px;
+  top: 5px;
+  width: 0;
+  height: 0;
+  z-index: 10;
+}
+
+.envelope__front::before {
+  position: absolute;
+  content: "";
+  border-left: 300px solid #f7a9a9;
+  border-top: 195px solid transparent;
+  left: -120px;
+  top: -95px;
+}
