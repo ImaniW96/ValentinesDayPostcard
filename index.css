@@ -1,1 +1,4 @@
-@import url(../ValentinesDayPostcard/blocks/modal.css);
+@import url(./blocks/envelope.css);
+@import url(./blocks/letter.css);
+@import url(./blocks/modal.css);
+@import url(./blocks/valentines.css);

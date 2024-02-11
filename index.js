@@ -1,46 +1,18 @@
+const modal = document.getElementById("profile-add-modal");
+
 const openLetter = document.getElementById("open-letter");
 
-// Add a click event listener
-openLetter.addEventListener("click", () => {
-  this._openLetter();
-});
+const openModal = () => {
+  modal.style.visibility = "visible";
+  modal.style.opacity = "1";
+};
 
-export default class Popup {
-  constructor({ popupSelector }) {
-    this._popupElement = document.querySelector(popupSelector);
+const closeModal = () => {
+  modal.style.visibility = "hidden";
+  modal.style.opacity = "0";
+};
 
-    this._popupCloseButton = this._popupElement.querySelector(".modal__close");
-  }
+openLetter.addEventListener("click", openModal);
 
-  open() {
-    this._popupElement.classList.add("modal_opened");
-
-    document.addEventListener("keydown", this._handleEscapeClose);
-  }
-  close() {
-    this._popupElement.classList.remove("modal_opened");
-
-    document.removeEventListener("keydown", this._handleEscapeClose);
-  }
-
-  // _handleEscapeClose = (evt) => {
-
-  //   if (evt.key === "Escape") {
-
-  //     this.close();
-
-  //   }
-
-  // };
-
-  setEventListeners() {
-    this._popupElement.addEventListener("click", (evt) => {
-      if (
-        evt.target === this._popupCloseButton ||
-        evt.target === this._popupElement
-      ) {
-        this.close();
-      }
-    });
-  }
-}
+const closeModalButton = document.getElementById("add-card-close-button");
+closeModalButton.addEventListener("click", closeModal);

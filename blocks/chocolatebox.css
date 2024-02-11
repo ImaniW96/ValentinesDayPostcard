@@ -1,0 +1,19 @@
+/* .chocolate__box {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  cursor: pointer;
+}
+.chocolate-box:before,
+.chocolate-box:after {
+  content: "";
+  position: absolute;
+}
+.chocolate-box:before {
+  width: 160px;
+  height: 160px;
+  background-color: brown;
+  left: 50%;
+  top: 50%;
+  box-shadow: 2px;
+} */

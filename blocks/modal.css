@@ -126,7 +126,7 @@
   opacity: 0;
 }
 
-.modal_opened {
+.letter_opened {
   transition: visibility 0.3s, opacity 0.3s;
   visibility: visible;
   opacity: 1;
