@@ -1,0 +1,19 @@
+.button {
+  font-size: 40px;
+  border-style: none;
+  color: #e45a5a;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 32px;
+  font-weight: 500;
+  line-height: 20px;
+  height: 60px;
+  border: none;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  font-family: "Inter", Arial, sans-serif;
+  border-radius: 4px;
+}
+.button:hover {
+  opacity: 0.7;
+}

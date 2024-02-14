@@ -1,0 +1,15 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #af1212;
+  border-radius: 20px;
+  background-image: url(../images/background6.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}

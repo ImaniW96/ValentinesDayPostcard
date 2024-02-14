@@ -8,6 +8,9 @@
 }
 
 .envelope__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
 }
 .envelope::before {

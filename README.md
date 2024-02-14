@@ -9,23 +9,23 @@
 - Images
 
 **Intro**
-
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+Love is in the air! In this season of love, I created a project to show cast love and Valentines day.
 
 **Project Design**
 
-For the envelope design, I found multiple design inspirations on youtube.
+I found multiple design inspirations on youtube for the envelope design.
 
 - [Link to the envelope design on Youtube]https://www.youtube.com/watch?v=q7F_0WJJD7g
+  All of the other design for the page were organically inspired.
 
 **Images**
-All Images were found on Unplash
+The flowers in the background were found on Unplash, the
+other elements to contribute to the background such as the bear and lips were designed by me using Canva.
 
 ** About this project**
-TripleTen Valentines Day Challenge: Valentines day Card
+TripleTen Valentines Day Challenge: Valentine's Day Card
 
-This project showcasts a love letter which is opened by clicking the envelope
-this poem is a showcast of love you may feel for your partner friend or family.
+This project showcasts a love poem which is opened by clicking the envelope.
+This poem is a showcast of love you may feel for your partner, friend, or family.
 
-In this project with the help of media queries, every element was configured to display correctly on popular screen sizes.
 Link to project: https://github.com/ImaniW96/ValentinesDayPostcard

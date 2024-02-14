@@ -17,3 +17,26 @@
   bottom: 10px;
   border: 2px solid black;
 }
+.letter__content {
+  font-size: 20px;
+}
+.letter__copyright {
+  font-size: 20px;
+  font-weight: 500;
+}
+@keyframes up {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+}
+.letter__body {
+  font-size: 20px;
+  font-weight: 400;
+}
+.letter__body_color {
+  color: #ee0b6a;
+}

@@ -1,4 +1,4 @@
-const modal = document.getElementById("profile-add-modal");
+const modal = document.getElementById("letter-modal");
 
 const openLetter = document.getElementById("open-letter");
 
@@ -14,5 +14,5 @@ const closeModal = () => {
 
 openLetter.addEventListener("click", openModal);
 
-const closeModalButton = document.getElementById("add-card-close-button");
+const closeModalButton = document.getElementById("letter-close-button");
 closeModalButton.addEventListener("click", closeModal);
